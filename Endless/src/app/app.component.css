@@ -1,0 +1,8 @@
+.mainWrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.appBody {
+    height: 95vh;
+}

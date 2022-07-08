@@ -1,0 +1,17 @@
+<div class="howItWorksWrapper">
+  <h1 class="howItWorksText">How It Works</h1>
+  <div class="steps">
+    <div class="singleStep" *ngFor="let step of stepData; let i = index" [attr.data-index]="i">
+      <h1 class="stepNumber">
+        0{{ i + 1 }}
+      </h1>
+      <hr class="solidBreak"/>
+      <p class="stepTitle">
+        {{ step.title }}
+      </p>
+      <p class="stepBody">
+        {{ step.body }}
+      </p>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,58 @@
+.howItWorksWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 5%;
+}
+
+.steps {
+    display: flex;
+    text-align: center;
+}
+
+.solidBreak {
+    border-top: 3px solid #47e4c2;
+    width: 20%;
+  }
+
+.howItWorksText {
+    font-family: Lato-Light;
+    margin-bottom: 0px;
+    margin-top: 3%;
+}
+
+.stepNumber {
+    font-family: Lato-Light;
+    font-size: 50pt;
+    margin-bottom: 0px;
+}
+
+.stepTitle {
+    font-family: Lato-Bold;
+    font-size: 13pt;
+    text-transform: uppercase
+}
+
+.stepBody {
+    font-family: Lato-Light;
+}
+
+/* 
+Start Media Queries
+*/
+@media (max-width: 1280px) and (max-height: 1000px) {
+    .howItWorksWrapper {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+}
+
+@media (max-width: 839.98px) {
+    .steps {
+        display: grid;
+        text-align: center;
+    }
+}
